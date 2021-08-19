@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useDarkMode from '../useDarkMode/useDarkMode';
 import logo from '../Navbar/logo.png'
 
 function Footer() {
-    useDarkMode();
     return (
         <div className="bg-gray-900 dark:bg-gray-200 font-mono">
         <footer className="flex flex-wrap items-center justify-between p-3 m-auto">

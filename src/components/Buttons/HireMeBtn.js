@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useDarkMode from '../useDarkMode/useDarkMode';
 
 function HireMeBtn() {
-    useDarkMode();
 
     return (
         <Link to="/contact" className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
