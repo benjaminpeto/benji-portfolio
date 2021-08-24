@@ -1,4 +1,5 @@
 import faceDetect from './project_img/faceDetect.jpg';
+import portfolio from './project_img/portfolio.png';
 import quote from './project_img/quote.png';
 import todo from './project_img/todo.png';
 import robofriends from './project_img/robofriends.png';
@@ -17,6 +18,16 @@ export const project = [
     },
     {
         id: 102,
+        title: "Personal Portfolio",
+        description:
+        "The site what you are currently looking at. Made with React, deployed by netlify. I learnt using tailwindCSS and added a darkmode feature with toggle by the user.",
+        image: portfolio,
+        libraries:['ReactJS', 'React Hooks', 'TailwindCSS', 'GoogleMaps API'],
+        link: "#coming",
+        source:"https://github.com/benjaminpeto/benji-portfolio∑"
+    },
+    {
+        id: 103,
         title: "RoboFriends",
         description:
         "My first app made with React, it was a project in Zero To Mastery course on Udemy. You can live search for robots. Later I added React Hooks, and Redux to manage states.",
@@ -26,7 +37,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/robofriends"
     },
     {
-        id: 103,
+        id: 104,
         title: "Quote Generator",
         description:
         "A pure JavaScript quote generator. Fetching data from JSON, completely responsive and you can tweet it straight on your Twitter. Contains also a spinning loader until the data is fetched.",
@@ -36,7 +47,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/quote-generator"
     },
     {
-        id: 104,
+        id: 105,
         title: "To-do App",
         description:
         "JavaScript ToDo app with a nicely designed interface and some added animations. Responsive and working on every browser. I am planning to add localStorage and destructure the codebase.",
@@ -46,7 +57,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/ToDo-App"
     },
     {
-        id: 105,
+        id: 106,
         title: "Surf Mystery Box Landing Page",
         description:
         "Just a simple landing page with pure HTML and CSS, my goal was to practice a little bit of Bootstrap and get back in shape with tags.",

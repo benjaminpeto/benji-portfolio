@@ -7,7 +7,7 @@ module.exports = {
     '/src/components/Skills/Skills.js',
     './public/index.html'
   ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: (theme) => ({
@@ -17,7 +17,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['dark'],
+    },
   },
   plugins: [],
 }
