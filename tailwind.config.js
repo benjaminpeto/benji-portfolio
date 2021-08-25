@@ -5,7 +5,7 @@ module.exports = {
     '/src/components/Navbar/Navbar.js',
     '/src/components/Projects/Projects.js',
     '/src/components/Skills/Skills.js',
-    './public/index.html'
+    '/public/index.html'
   ],
   darkMode: 'class',
   theme: {
