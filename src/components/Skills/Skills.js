@@ -24,12 +24,10 @@ function Skills() {
           </svg>
           <Slide up cascade duration={500}>
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-600 mb-4">
-              Skills &amp; Technologies
+              Languages &amp; frameworks
             </h1>
             <p className="text-base text-gray-300 dark:text-gray-600 font-mono leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-              ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-              possimus est.
+              Here are the technologies what I am currently use and I am always happy to add more to the list.
             </p>
           </Slide>
         </div>

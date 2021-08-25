@@ -40,7 +40,7 @@ export const project = [
         id: 104,
         title: "Quote Generator",
         description:
-        "A pure JavaScript quote generator. Fetching data from JSON, completely responsive and you can tweet it straight on your Twitter. Contains also a spinning loader until the data is fetched.",
+        "A pure JavaScript quote generator. Fetching data from JSON, completely responsive and you can tweet it on your Twitter. Contains also a spinning loader until the data is fetched.",
         image: quote,
         libraries:['HTML', 'CSS', 'JavaScript'],
         link: "https://benjaminpeto.github.io/quote-generator/",

@@ -18,7 +18,7 @@ function Projects() {
                             Projects
                         </h1>
                         <p className="text-base text-gray-300 dark:text-gray-600 font-mono leading-relaxed xl:w-2/4 md:w-3/4 mx-auto">
-                            Look around my websites, and web applications to see what I've made so far, what technologies I used, and how I wrote my codes.
+                            Go on, have a little scroll, check out my websites and applications to see what I have worked on so far...
                         </p>
                     </RubberBand>
                 </div>
