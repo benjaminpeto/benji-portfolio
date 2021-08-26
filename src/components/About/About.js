@@ -4,7 +4,6 @@ import Bio from './Bio';
 import resume from '../Buttons/benjaminpeto_resume.pdf';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Tilt from 'react-parallax-tilt';
 import profile from './profile.jpg';
 import './about.css';
 
@@ -13,7 +12,6 @@ function About() {
     <>
         <Bio />
         <section id='introduction' className="bg-code dark:bg-lightcode bg-cover bg-fixed flex flex-wrap content-center w-full md:h-screen">
-           <Tilt >
             <div className="bg-gray-700 dark:bg-gray-500 dark:text-gray-300 bg-opacity-50 dark:bg-opacity-50 backdrop-filter backdrop-blur-xl h-auto md:flex rounded-xl p-8 md:p-4 mx-6 sm:mx-14 md:mx-auto wrapper md:mt-0 mt-20 mb-5 md:mb-0 md:w-5/6 lg:w-3/4 2xl:w-1/2 justify-center">
                 <Zoom delay={700}>
                     <img className='w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mt-auto mb-auto shadow-md' src={profile} alt='benjamin peto profile' height='400' width='400'/>
@@ -50,7 +48,6 @@ function About() {
                     </div>
                 </Fade>
             </div>
-           </Tilt>
        </section>
     </>
     );
