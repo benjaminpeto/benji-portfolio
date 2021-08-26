@@ -1,12 +1,12 @@
 module.exports = {
   purge: [
-    "./src/components/**/*.{js,jsx,ts,tsx}"
+    "./src/components/**/*.js",
     /* '/src/components/About/About.js',
     '/src/components/Contact/Contact.js',
     '/src/components/Navbar/Navbar.js',
     '/src/components/Projects/Projects.js',
-    '/src/components/Skills/Skills.js',
-    '/public/index.html' */
+    '/src/components/Skills/Skills.js', */
+    "./public/index.html",
   ],
   darkMode: 'class',
   theme: {
