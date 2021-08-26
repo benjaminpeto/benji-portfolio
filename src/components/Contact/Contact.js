@@ -24,7 +24,7 @@ function Contact() {
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error, "Message haven't been sent!"));
 
-        e.target.value = '';
+        e.target.reset();
     }
     return (
         <section id="contact" className="relative bg-gray-900 dark:bg-gray-200 pt-11 md:py-20 2xl:py-40 2xl:h-full">
