@@ -30,6 +30,7 @@ function Contact() {
             
             <Fade top>
               <form
+              onSubmit={handleSubmit}
               netlify
               name="contact"
               className="lg:w-1/3 md:w-1/2 flex flex-col md:mr-auto w-full md:py-8 mb-8 md:mb-0">
