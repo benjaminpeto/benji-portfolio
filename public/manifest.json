@@ -1,22 +1,15 @@
 {
-  "short_name": "BenjiWeb",
+  "short_name": "Benji WebDev",
   "name": "Benjamin Peto - Web Developer",
   "icons": [
     {
-      "src": "/public/logo.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/public/logo.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "maskable"
+      "src": "logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "fullscreen",
-  "theme_color": "#10B981",
-  "background_color": "#111827"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
