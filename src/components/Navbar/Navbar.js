@@ -145,28 +145,28 @@ function Navbar() {
                   <Link
                     to="/"
                     className="text-gray-300 dark:text-gray-600 hover:bg-gray-700 dark:hover:bg-gray-300 hover:text-white dark:hover:text-gray-900 block px-3 py-2 rounded-md font-medium text-center"
-                    onFocus={hide}>
+                    onClick={hide}>
                     About
                   </Link>
 
                   <Link
                     to="/skills"
                     className="text-gray-300 dark:text-gray-600 hover:bg-gray-700 dark:hover:bg-gray-300 hover:text-white dark:hover:text-gray-900 block px-3 py-2 rounded-md font-medium text-center"
-                    onFocus={hide}>
+                    onClick={hide}>
                     Skills
                   </Link>
 
                   <Link
                     to="/projects"
                     className="text-gray-300 dark:text-gray-600 hover:bg-gray-700 dark:hover:bg-gray-300 hover:text-white dark:hover:text-gray-900 block px-3 py-2 rounded-md text-center font-medium"
-                    onFocus={hide}>
+                    onClick={hide}>
                     Projects
                   </Link>
 
                   <Link
                     to="/contact"
                     className="text-gray-900 bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-600 hover:to-blue-700 hover:text-white block px-3 py-2 rounded-md text-center font-medium"
-                    onFocus={hide}>
+                    onClick={hide}>
                     Hire Me
                   </Link>
                 </div>
