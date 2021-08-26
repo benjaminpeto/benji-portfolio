@@ -29,7 +29,7 @@ function Projects() {
                     key={project.image}
                     className="sm:w-1/2 w-100 p-4 py-8"
                     rel='noreferrer'
-                    target='_blank'>
+                    target='_blank'>project main screen
                         <div className="flex relative shadow-2xl">
                         <img
                             alt="gallery items"
