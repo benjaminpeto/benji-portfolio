@@ -32,16 +32,16 @@ function Projects() {
                     target='_blank'>
                         <div className="flex relative shadow-2xl">
                         <img
-                            alt="gallery"
+                            alt="gallery items"
                             className="absolute inset-0 w-full h-full object-cover object-center"
                             src={project.image}
                             height='200'
                             width='auto'
                         />
                         <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 dark:border-gray-400 bg-gray-900 dark:bg-gray-200 opacity-0 hover:opacity-90 transform transition duration-500 ease-in-out">
-                            <h1 className="title-font text-lg font-medium text-white dark:text-gray-900 mb-3">
+                            <h2 className="title-font text-lg font-medium text-white dark:text-gray-900 mb-3">
                             {project.title}
-                            </h1>
+                            </h2>
                             <div className="flex flex-wrap pb-2">
                                 {project.libraries.map((libraries) => (
                                     <h2 className='px-1 mx-1 border border-solid border-green-600 rounded-md text-green-500 font-mono text-xs' key={libraries}>{libraries}</h2>

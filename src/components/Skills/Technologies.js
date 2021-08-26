@@ -25,15 +25,15 @@ export const applications = [
     },
     {
         id: 7,
-        name: 'React JS',
+        name: 'ReactJS',
     },
     {
         id: 8,
-        name: 'Node JS',
+        name: 'NodeJS',
     },
     {
         id: 9,
-        name: 'Express JS',
+        name: 'ExpressJS',
     },
     {
         id: 10,
