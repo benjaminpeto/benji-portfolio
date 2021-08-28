@@ -1,6 +1,7 @@
 {
   "short_name": "Benji WebDev",
   "name": "Benjamin Peto - Web Developer",
+  "description": "This website is inteded to showcase my abilities and give a quick look what I've made so far.",
   "icons": [
     {
       "src": "logo.png",
@@ -10,6 +11,6 @@
   ],
   "start_url": ".",
   "display": "fullscreen",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#34D399",
+  "background_color": "#111827"
 }
