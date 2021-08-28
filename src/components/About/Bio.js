@@ -24,7 +24,7 @@ function Bio() {
                     </div>
                     <div className='flex flex-col justify-center align-middle w-3/12 bg-green-500'>
                         <Tada delay={1200}>
-                            <img className='-ml-8 sm:-ml-12 md:-ml-16 xl:-ml-24 2xl:-ml-36' src={emoji} alt='emoji character of Benji'/>
+                            <img className='-ml-8 sm:-ml-12 md:-ml-16 xl:-ml-24 2xl:-ml-36' src={emoji} height='300' width='300' alt='emoji character of Benji'/>
                         </Tada>
                     </div>
                 </div>

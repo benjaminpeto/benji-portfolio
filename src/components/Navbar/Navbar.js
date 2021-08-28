@@ -19,6 +19,8 @@ function Navbar() {
                 <img
                     className="h-14 w-11 pt-2"
                     src={logo}
+                    height='50'
+                    widht='50'
                     alt="benjamin peto's logo"
                   /> 
               </Link>
