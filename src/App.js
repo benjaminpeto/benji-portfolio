@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import {  Route, Switch } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -9,6 +10,13 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
+
+  /* GOOGLE ANALITICS */
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+    ReactGA.pageview(window.location.pathname + window.location.search)
+    },[]);
+  /* GOOGLE ANALITICS */
 
   useEffect(() => {
       const el = document.querySelector(".loader-container");
