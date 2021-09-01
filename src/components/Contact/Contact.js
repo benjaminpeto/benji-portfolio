@@ -21,8 +21,8 @@ function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error, "Message haven't been sent!"));
+        .then(() => alert("Message has been sent! I'll get back to you as soon as possible."))
+        .catch((error) => alert(error, "Message hasn't been sent! Try again please."));
 
         e.target.reset();
     }
@@ -32,10 +32,10 @@ function Contact() {
             
             <Fade top>
               <form
-              onSubmit={handleSubmit}
-              netlify
-              name="contact"
-              className="lg:w-1/3 md:w-1/2 flex flex-col md:mr-auto w-full md:py-8 mb-8 md:mb-0">
+                onSubmit={handleSubmit}
+                netlify
+                name="contact"
+                className="lg:w-1/3 md:w-1/2 flex flex-col md:mr-auto w-full md:py-8 mb-8 md:mb-0">
               <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-600 sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Hire Me
               </h1>
