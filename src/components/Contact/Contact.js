@@ -39,7 +39,7 @@ function Contact() {
               <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-600 sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Hire Me
               </h1>
-              <p className="leading-relaxed mb-5 text-gray-300 dark:text-gray-600">
+              <p className="leading-relaxed mb-5 text-gray-300 dark:text-gray-900">
               Got a question or proposal, or just want to say hello? Go ahead.
               </p>
               <div className="relative mb-4">
