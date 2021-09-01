@@ -7,21 +7,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
-ReactDOM.render(
-  <BrowserRouter>
-    <ScrollToTop  />
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+const ga4react = new GA4React(process.env.REACT_APP_TRACKING_ID);
 
-/* GOOGLE ANALITICS --> should not load with the beginning of a pageload, also preventing addblockers, and only loads once */
-try {
-  setTimeout(_ => {
-    const ga4react = new GA4React(process.env.REACT_APP_TRACKING_ID);
-    ga4react.initialize();
-  }, 4000);
-} catch (err) {}
+(async _ => {
+
+  await ga4react.initialize()
+  .then(res => console.log("Analytics Success."))
+  .catch(err => console.log("Analytics Failure."))
+  .finally(() => {
+      ReactDOM.render(
+        <BrowserRouter>
+          <ScrollToTop  />
+          <App />
+        </BrowserRouter>,
+        document.getElementById('root')
+      );
+    });
+})();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

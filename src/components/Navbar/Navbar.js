@@ -74,12 +74,23 @@ function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="-mr-2 flex md:hidden">
+              <div className="-mr-2 flex md:hidden space-x-4">
+              <span onClick={() => setTheme(colorTheme)} className='w-10 h-10 bg-gray-800 dark:bg-white rounded-full shadow-md cursor-pointer flex items-center text-yellow-400 mx-auto justify-center'>
+                        {colorTheme === 'dark' ?
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg>
+                          :
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                          </svg> 
+                        }
+                  </span>
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
                   className="bg-black dark:bg-white inline-flex items-center justify-center p-2 rounded-md text-green-400 hover:text-black hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-400 focus:ring-white dark:focus:ring-gray-400"
-                  aria-controls="mobile-menu"
+                  ari-controls="mobile-menu"
                   aria-expanded="false"
                 >
                   <span className="sr-only">Open main menu</span>
@@ -133,17 +144,17 @@ function Navbar() {
             {(ref) => (
               <div className="md:hidden" id="mobile-menu">
                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <span onClick={() => setTheme(colorTheme)} className='w-10 h-10 bg-gray-800 dark:bg-white rounded-full shadow-md cursor-pointer flex items-center justify-center mx-auto text-yellow-400'>
-                      {colorTheme === 'dark' ?
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                        </svg>
-                        :
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                        </svg> 
-                      }
-                    </span>
+                  {/* <span onClick={() => setTheme(colorTheme)} className='w-10 h-10 bg-gray-800 dark:bg-white rounded-full shadow-md cursor-pointer flex items-center justify-center mx-auto text-yellow-400'>
+                        {colorTheme === 'dark' ?
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg>
+                          :
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                          </svg> 
+                        }
+                  </span> */}
                   <Link
                     to="/"
                     className="text-gray-300 dark:text-gray-600 hover:bg-gray-700 dark:hover:bg-gray-300 hover:text-white dark:hover:text-gray-900 block px-3 py-2 rounded-md font-medium text-center"
