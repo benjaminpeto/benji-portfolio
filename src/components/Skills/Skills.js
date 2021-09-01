@@ -27,7 +27,7 @@ function Skills() {
               Languages &amp; frameworks
             </h1>
             <p className="text-base text-gray-300 dark:text-gray-600 font-mono leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              Here are the technologies what I am currently use and I am always happy to add more to the list.
+              Here are the technologies and libraries I currently use. I'm always happy to add more to the list...
             </p>
           </Slide>
         </div>

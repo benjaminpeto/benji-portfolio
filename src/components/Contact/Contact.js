@@ -40,7 +40,7 @@ function Contact() {
                 Hire Me
               </h1>
               <p className="leading-relaxed mb-5 text-gray-300 dark:text-gray-900">
-              Got a question or proposal, or just want to say hello? Go ahead.
+              Have a question or proposal, or just want to say hello? Go ahead.
               </p>
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400 dark:text-gray-800">
