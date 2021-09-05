@@ -1,6 +1,6 @@
 import React from "react";
 import { applications } from "./Technologies";
-import Slide from "react-reveal/Slide";
+import RubberBand from "react-reveal/RubberBand";
 import Rotate from "react-reveal/Rotate";
 
 function Skills() {
@@ -8,6 +8,7 @@ function Skills() {
     <section id="skills" className="h-full bg-gray-900 dark:bg-gray-200 pt-12 2xl:py-24">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
+        <RubberBand>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-10 w-10 inline-block mb-4"
@@ -22,14 +23,14 @@ function Skills() {
               d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
             />
           </svg>
-          <Slide up cascade duration={500}>
+          
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-600 mb-4">
               Languages &amp; frameworks
             </h1>
             <p className="text-base text-gray-300 dark:text-gray-600 font-mono leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               Here are the technologies and libraries I currently use. I'm always happy to add more to the list...
             </p>
-          </Slide>
+          </RubberBand>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {Object.keys(applications).map((skill) => (
