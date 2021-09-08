@@ -23,8 +23,8 @@ export const project = [
         "The site what you are currently looking at. Made with React, deployed by netlify. I learnt using tailwindCSS and added a darkmode feature with toggle by the user.",
         image: portfolio,
         libraries:['ReactJS', 'React Hooks', 'TailwindCSS', 'GoogleMaps API'],
-        link: "#coming",
-        source:"https://github.com/benjaminpeto/benji-portfolio∑"
+        link: "https://github.com/benjaminpeto/benji-portfolio",
+        source:"https://github.com/benjaminpeto/benji-portfolio"
     },
     {
         id: 103,
