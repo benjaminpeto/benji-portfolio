@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Bio from './Bio';
-import resume from '../Buttons/benjaminpeto_resume.pdf';
+import resume from '../Buttons/benjamin_peto_resume.pdf';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import profile from './profile.jpg';
@@ -34,7 +34,7 @@ function About() {
                             </span>
                         </Link>
                         <a href={resume}
-                            download="benjaminpeto_resume.pdf"
+                            download="benjamin_peto_resume.pdf"
                             className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                             <span className="w-full h-full bg-gradient-to-br from-green-400 to-blue-500 hover:from-green-600 hover:to-blue-700 absolute"></span>
                             <span className="relative pb-1 pt-2 px-6 transition-all ease-out bg-gray-900 dark:bg-gray-300 rounded-md group-hover:bg-opacity-0 duration-500">
