@@ -38,7 +38,7 @@ function Contact() {
             "Something went wrong. Message hasn't been sent! Please, try again."
           )
         );
-        window.location.href = "https://benjaminpeto.netlify.app";
+        /* window.location.href = "https://benjaminpeto.netlify.app"; */
     }
     e.target.reset();
   }
