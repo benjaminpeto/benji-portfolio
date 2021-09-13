@@ -19,7 +19,7 @@ function Contact() {
     if (name === "" || email === "" || message === "") {
       alert(
         "You need to fill out every input in order to submit! Try again please."
-      );
+      )
     } else {
       fetch("/", {
         method: "POST",
@@ -30,8 +30,7 @@ function Contact() {
           () =>
             alert(
               "Message has been sent! I'll get back to you as soon as possible."
-            ),
-          (window.location.href = "http://benjaminpeto.netlify.com")
+            )
         )
         .catch((error) =>
           alert(
@@ -39,6 +38,7 @@ function Contact() {
             "Something went wrong. Message hasn't been sent! Please, try again."
           )
         );
+        window.location.href = "http://benjaminpeto.netlify.com";
     }
     e.target.reset();
   }
