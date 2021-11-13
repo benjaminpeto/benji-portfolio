@@ -46,5 +46,21 @@ export const applications = [
     {
         id: 12,
         name: 'Git',
+    },
+    {
+        id: 13,
+        name: 'SCSS',
+    },
+    {
+        id: 14,
+        name: 'styled-components',
+    },
+    {
+        id: 15,
+        name: '* Redux',
+    },
+    {
+        id: 16,
+        name: '* React Hooks',
     }
 ];
