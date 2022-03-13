@@ -5,6 +5,7 @@ import todo from './project_img/todo.png';
 import robofriends from './project_img/robofriends.png';
 import mysteryboxes from './project_img/mysteryboxes.png';
 import crowncloth from './project_img/crownclothing.webp';
+import ariportfolio from './project_img/ariportfolio.webp';
 
 export const project = [
     {
@@ -29,6 +30,16 @@ export const project = [
     },
     {
         id: 103,
+        title: "Ariana Scalzo Designer",
+        description:
+        "Strictly following the Figma design of Ariana, built her page accordingly with animations and UX she had imagined. In this project I used the latest version of React Router with nested and dynamic routes, Outletlayout, and also levaraging from the useNavigate and useHistory hooks. Styling was made with SCSS, animations with Framer Motion and CSS. I came across a lot of challenges in the process which made it more exciting. The website is deployed by Netlify.",
+        image: ariportfolio,
+        libraries:['ReactJS', 'React Hooks', 'SCSS', 'React Router v6', 'emailJS', 'Framer Motion', 'validator'],
+        link: "https://www.arianascalzo.com",
+        source:"https://github.com/benjaminpeto/ariana-porfolio"
+    },
+    {
+        id: 104,
         title: "Personal Portfolio",
         description:
         "The site what you are currently looking at. Made with React, deployed by Netlify. I learnt using tailwindCSS and added a darkmode feature with toggle by the user.",
@@ -38,7 +49,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/benji-portfolio"
     },
     {
-        id: 104,
+        id: 105,
         title: "RoboFriends",
         description:
         "My first app made with React, it was a project in Zero To Mastery course on Udemy. You can live search for robots. Later I added React Hooks, and Redux to manage states.",
@@ -48,7 +59,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/robofriends"
     },
     {
-        id: 105,
+        id: 106,
         title: "Quote Generator",
         description:
         "A pure JavaScript quote generator. Fetching data from JSON, completely responsive and you can tweet it on your Twitter. Contains also a spinning loader until the data is fetched.",
@@ -58,7 +69,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/quote-generator"
     },
     {
-        id: 106,
+        id: 107,
         title: "To-do App",
         description:
         "JavaScript ToDo app with a nicely designed interface and some added animations. Responsive and working on every browser. I am planning to add localStorage and destructure the codebase.",
@@ -68,7 +79,7 @@ export const project = [
         source:"https://github.com/benjaminpeto/ToDo-App"
     },
     {
-        id: 107,
+        id: 108,
         title: "Surf Mystery Box Landing Page",
         description:
         "Just a simple landing page with pure HTML and CSS, my goal was to practice a little bit of Bootstrap and get back in shape with tags.",

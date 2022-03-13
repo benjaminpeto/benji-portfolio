@@ -43,7 +43,7 @@ function Footer() {
                     </li>
                 </ul>
                 <div className="flex mx-auto text-gray-400 text-center pt-8 text-xs">
-                    Designed and coded by Benjamin Peto © 2021
+                    Designed and coded by Benjamin Peto © 2022
                 </div>
             </div>
         </footer>
